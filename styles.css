@@ -41,6 +41,20 @@ body    {
     
 }
 
+.menu-icon-container {
+    cursor: pointer;
+    width: auto;
+    margin: 0 4rem;
+    display: none;
+}
+
+.menu-bar   {
+    width: 40px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
 .header-nav {
     padding: 4rem;
 }
@@ -68,6 +82,7 @@ body    {
     background-size: cover;
     overflow: hidden;
     display: block;
+    padding-top: 8rem;
 }
 
 .hero-text-sub-section  {
@@ -151,8 +166,21 @@ body    {
     .header-nav    {
         display: none;
     }
-    .hero-text-sub-section   {
+    .main-header    {
+        position: relative;
+    }
+    .menu-icon-container    {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        margin: 0;
+    }
+    .hero-section   {
         padding-top: 2rem;
+    }
+    .hero-text-sub-section   {
+        padding-top: 0rem;
     }
     .hero-btn-section   {
         margin-top: 0;
@@ -170,6 +198,16 @@ body    {
 /*    * { color: yellow;} */
     .header-nav {
         display: none;
+    }
+    .main-header    {
+        position: relative;
+    }
+    .menu-icon-container    {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        margin: 0;
     }
     .hero-text-heading {
         font-size: 10rem;
@@ -202,8 +240,18 @@ body    {
     .header-nav    {
         display: none;
     }
+    .main-header    {
+        position: relative;
+    }
+    .menu-icon-container    {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        margin: 0;
+    }
     .hero-text-sub-text {
-        font-size: 2rem;
+        font-size: 4rem;
     }
     .hero-section   {
         overflow: none;
@@ -227,6 +275,16 @@ body    {
   /*  * { color: green;} */
     .header-nav {
         display: none;
+    }
+    .main-header    {
+        position: relative;
+    }
+    .menu-icon-container    {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        margin: 0;
     }
     .hero-text-heading {
         font-size: 8rem;
@@ -259,6 +317,16 @@ body    {
     .header-nav {
         display: none;
     }
+    .main-header    {
+        position: relative;
+    }
+    .menu-icon-container    {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        margin: 0;
+    }
     .hero-text-heading {
         font-size: 6rem;
     }
@@ -289,6 +357,16 @@ body    {
  /*   * { color: lightgreen;} */
     .header-nav {
         display: none;
+    }
+    .main-header    {
+        position: relative;
+    }
+    .menu-icon-container    {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        margin: 0;
     }
     .hero-text-heading {
         font-size: 5rem;
