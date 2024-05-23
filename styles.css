@@ -117,3 +117,201 @@ body    {
     transition: all 0.2s ease-in-out;
     box-shadow: 1px 0px 10px 1px rgba(255,255,255,0.7);
 }
+
+@media screen and (width <= 1280px) {
+ /*   * { color: red;} */
+    .hero-text-heading {
+        font-size: 12rem;
+    }
+}
+
+@media screen and (width <= 1080px) {
+  /*  * { color: blue;} */
+    .header-nav-item    {
+        font-size: 1.8rem;
+    }
+    .hero-text-heading {
+        font-size: 10rem;
+    }
+    .hero-text-sub-text {
+        font-size: 6rem;
+    }
+    .hero-text-intro-text   {
+        font-size: 3rem;
+    }
+    .hero-btn   {
+        margin-top: 6rem;
+        font-size: 2.4rem;
+        padding: 1.2rem 2.4rem;
+    }
+}
+
+@media screen and (width <= 1080px) and (orientation: landscape){
+  /*  * { color: aqua;} */
+    .header-nav    {
+        display: none;
+    }
+    .hero-text-sub-section   {
+        padding-top: 2rem;
+    }
+    .hero-btn-section   {
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        flex-shrink: 1;
+    }
+    .hero-btn{
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (width <= 800px) {
+/*    * { color: yellow;} */
+    .header-nav {
+        display: none;
+    }
+    .hero-text-heading {
+        font-size: 10rem;
+    }
+    .hero-text-sub-text {
+        font-size: 6rem;
+    }
+    .hero-text-intro-text   {
+        font-size: 2.4rem;
+    }
+    .hero-btn-section   {
+        margin: 2rem auto;
+        margin-top: 8rem;
+        flex-direction: column;
+        align-content: center;
+        justify-items: center;
+        gap: 4rem;
+    }
+    .hero-btn   {
+        font-size: 2.4rem;
+        margin: 0 auto;
+        padding: 1.2rem 2.4rem;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (width <= 800px) and (orientation:landscape) {
+  /*  * { color: lightcoral;} */
+    .header-nav    {
+        display: none;
+    }
+    .hero-text-sub-text {
+        font-size: 2rem;
+    }
+    .hero-section   {
+        overflow: none;
+    }
+    .hero-btn-section   {
+        margin-top: 0;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        flex-direction: row;
+        width: 80%;
+    }
+    .hero-btn{
+        margin-top: 2rem;
+        font-size: 2rem;
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (width <= 640px) {
+  /*  * { color: green;} */
+    .header-nav {
+        display: none;
+    }
+    .hero-text-heading {
+        font-size: 8rem;
+    }
+    .hero-text-sub-text {
+        font-size: 4rem;
+    }
+    .hero-text-intro-text   {
+        font-size: 2rem;
+    }
+    .hero-btn-section   {
+        margin: 2rem auto;
+        margin-top: 8rem;
+        flex-direction: column;
+        align-content: center;
+        justify-items: center;
+        gap: 2rem;
+    }
+    .hero-btn   {
+        font-size: 2.4rem;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (width <= 500px) {
+  /*  * { color: orange;} */
+    .header-nav {
+        display: none;
+    }
+    .hero-text-heading {
+        font-size: 6rem;
+    }
+    .hero-text-sub-text {
+        font-size: 4rem;
+    }
+    .hero-text-intro-text   {
+        font-size: 1.5rem;
+    }
+    .hero-btn-section   {
+        margin: 2rem auto;
+        margin-top: 8rem;
+        flex-direction: column;
+        align-content: center;
+        justify-items: center;
+        gap: 2rem;
+    }
+    .hero-btn   {
+        font-size: 2.4rem;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (width <= 380px) {
+ /*   * { color: lightgreen;} */
+    .header-nav {
+        display: none;
+    }
+    .hero-text-heading {
+        font-size: 5rem;
+    }
+    .hero-text-sub-text {
+        font-size: 4rem;
+    }
+    .hero-text-intro-text   {
+        font-size: 1.2rem;
+    }
+    .hero-btn-section   {
+        margin: 2rem auto;
+        margin-top: 8rem;
+        flex-direction: column;
+        align-content: center;
+        justify-items: center;
+        gap: 2rem;
+    }
+    .hero-btn   {
+        font-size: 2.4rem;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+        width: 100%;
+        text-align: center;
+    }
+}
