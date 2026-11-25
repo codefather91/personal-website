@@ -1,40 +1,195 @@
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Kanav Gulati</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kanav</title>
+<meta name="description" content="[Short site description]">
+<meta name="theme-color" content="#F7F4EE">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&amp;family=Inter:wght@400;500&amp;display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
-    <header class="main-header">
-        <nav class="header-nav">
-            <a class="header-nav-item" href="#">HOME</a>
-            <a class="header-nav-item" href="#">ABOUT</a>
-            <a class="header-nav-item" href="#">WORK</a>
-            <a class="header-nav-item" href="#">BLOGS</a>
-            <a class="header-nav-item" href="#">CONTACT</a>
-        </nav>
-        <div class="header-hero">
-            <h1 class="hero-heading">
-                <span class="hero-heading-primary">Kanav Gulati</span>
-                <span class="hero-heading-secondary">Dad // Data Engineer // Black Coffee enjoyer</span>
-            </h1>
-            <a href="#" class="hero-btn btn-1">Know my Work</a>
-            <a href="#" class="hero-btn btn-2">Know my Life</a>
-            <a href="#" class="hero-btn btn-3">Get in touch</a>
-        </div>
-    </header>
-    <div class="socials">
-        <a href="https://www.instagram.com/kayveegulati/?hl=en" target="_blank"><img src="img/icons/instagram.png" alt="Instagram" class="social-icon"/></a>
-        <a href="https://x.com/thekvgulati?lang=en" target="_blank"><img src="img/icons/twitter.png" alt="Twitter (X)" class="social-icon"/></a>
-        <a href="https://www.linkedin.com/in/kvgulati?originalSubdomain=in" target="_blank"><img src="img/icons/linkedin.png" alt="LinkedIn" class="social-icon"/></a>
-        <a href="https://github.com/codefather91" target="_blank"><img src="img/icons/github.png" alt="github" class="social-icon"/></a>
-        <a href="mailto:kanavg@gmail.com" target="_blank"><img src="img/icons/email.png" alt="E-mail" class="social-icon"/></a>
-    </div>
-    <span class="footer-text">Kanav Gulati &copy; 2024</span>
-    <a class="font-attrib" href="https://www.flaticon.com/free-icons/" title="Icons">Icons by Flaticon</a>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="#home">Kanav</a>
+<nav class="site-nav" aria-label="Primary">
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-list">Menu</button>
+<ul id="nav-list">
+<li><a href="#work">Work</a></li>
+<li><a href="#writing">Writing</a></li>
+<li><a href="#life">Life</a></li>
+<li><a href="#hobbies">Hobbies</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="main">
+
+<section id="home">
+<div class="wrap">
+<div class="hero">
+<div class="text">
+<h1>Hi, I'm Kanav.</h1>
+<p class="lead">[One-line intro: what you do and what this site is]</p>
+<div class="actions"><a class="btn btn-primary" href="#writing">Read my writing</a><a class="btn btn-ghost" href="#work">See my work</a></div>
+</div>
+<figure class="ph portrait" role="img" aria-label="Portrait placeholder">[Portrait / image]</figure>
+</div>
+<div class="grid cols-4 pillars">
+<a class="card" href="#work"><h2 style="font-size:1.5rem">Work</h2><p>[Projects and experience]</p><span class="more">Explore</span></a>
+<a class="card" href="#writing"><h2 style="font-size:1.5rem">Writing</h2><p>[Technical and personal posts]</p><span class="more">Explore</span></a>
+<a class="card" href="#life"><h2 style="font-size:1.5rem">Life</h2><p>[Now and favorites]</p><span class="more">Explore</span></a>
+<a class="card" href="#hobbies"><h2 style="font-size:1.5rem">Hobbies</h2><p>[What I do for fun]</p><span class="more">Explore</span></a>
+</div>
+<div class="recent">
+<h2>Recent</h2>
+<ul class="list">
+<li class="row"><span class="muted small">[Date]</span><a href="#">[Post title]</a><span class="tag">Technical</span></li>
+<li class="row"><span class="muted small">[Date]</span><a href="#">[Post title]</a><span class="tag">Personal</span></li>
+<li class="row"><span class="muted small">[Date]</span><a href="#">[Project or update]</a><span class="tag">Work</span></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="work">
+<div class="wrap">
+<div class="section-head"><h2>Work</h2><p>[Two lines on how your professional and personal building fit together]</p></div>
+
+<div class="sub" style="padding-top:0" id="professional">
+<div class="section-head" style="margin:0"><h3>Professional</h3><p>[One line on your industry experience]</p></div>
+<div class="stack">
+<h4>Industry experience</h4>
+<div class="chips"><span class="chip">[Industry / domain]</span><span class="chip">[Industry / domain]</span><span class="chip">[Industry / domain]</span><span class="chip">[Industry / domain]</span></div>
+</div>
+<div>
+<div class="list-head" style="margin-bottom:12px"><h4>Companies</h4><a class="small" href="#">Download r&eacute;sum&eacute;</a></div>
+<ol class="list">
+<li class="co"><div class="ph logo" aria-hidden="true">[Logo]</div><div><span class="co-name">[Company]</span><p class="muted small">[Role] &middot; [Year &ndash; Year]</p></div><p class="muted">[One-line summary of what you did there]</p><span class="tag">[Skill] &middot; [Skill]</span></li>
+<li class="co"><div class="ph logo" aria-hidden="true">[Logo]</div><div><span class="co-name">[Company]</span><p class="muted small">[Role] &middot; [Year &ndash; Year]</p></div><p class="muted">[One-line summary of what you did there]</p><span class="tag">[Skill] &middot; [Skill]</span></li>
+<li class="co"><div class="ph logo" aria-hidden="true">[Logo]</div><div><span class="co-name">[Company]</span><p class="muted small">[Role] &middot; [Year &ndash; Year]</p></div><p class="muted">[One-line summary of what you did there]</p><span class="tag">[Skill] &middot; [Skill]</span></li>
+</ol>
+</div>
+</div>
+
+<div class="sub" id="side-projects">
+<div class="section-head" style="margin:0"><h3>Side projects</h3><p>[One line on what you tinker with in your free time]</p></div>
+<div class="grid cols-3">
+<article class="project"><div class="ph" role="img" aria-label="Project image placeholder">[Image]</div><div class="body"><span class="status">[Idea / Building / Shipped]</span><h4>[Project title]</h4><p class="muted small">[One-line description]</p><a href="#">View project</a></div></article>
+<article class="project"><div class="ph" role="img" aria-label="Project image placeholder">[Image]</div><div class="body"><span class="status">[Idea / Building / Shipped]</span><h4>[Project title]</h4><p class="muted small">[One-line description]</p><a href="#">View project</a></div></article>
+<article class="project"><div class="ph" role="img" aria-label="Project image placeholder">[Image]</div><div class="body"><span class="status">[Idea / Building / Shipped]</span><h4>[Project title]</h4><p class="muted small">[One-line description]</p><a href="#">View project</a></div></article>
+</div>
+</div>
+</div>
+</section>
+
+<section id="writing">
+<div class="wrap">
+<div class="section-head"><h2>Writing</h2></div>
+<div class="chips" role="group" aria-label="Filter posts" style="margin-bottom:24px">
+<button class="chip" type="button" data-filter="all" aria-pressed="true">All</button>
+<button class="chip" type="button" data-filter="technical" aria-pressed="false">Technical</button>
+<button class="chip" type="button" data-filter="non-technical" aria-pressed="false">Non-technical</button>
+<button class="chip" type="button" data-filter="topic" aria-pressed="false">[Topic tag]</button>
+</div>
+<ul class="list" id="posts">
+<li class="post" data-tags="technical topic"><span class="muted small">[Date]</span><div><h4><a href="#">[Post title]</a></h4><p class="muted small">[One-line summary]</p></div><span class="tag">Technical</span><span class="muted small">[x] min</span></li>
+<li class="post" data-tags="non-technical topic"><span class="muted small">[Date]</span><div><h4><a href="#">[Post title]</a></h4><p class="muted small">[One-line summary]</p></div><span class="tag">Non-technical</span><span class="muted small">[x] min</span></li>
+<li class="post" data-tags="technical"><span class="muted small">[Date]</span><div><h4><a href="#">[Post title]</a></h4><p class="muted small">[One-line summary]</p></div><span class="tag">Technical</span><span class="muted small">[x] min</span></li>
+<li class="post" data-tags="non-technical"><span class="muted small">[Date]</span><div><h4><a href="#">[Post title]</a></h4><p class="muted small">[One-line summary]</p></div><span class="tag">Non-technical</span><span class="muted small">[x] min</span></li>
+</ul>
+</div>
+</section>
+
+<section id="life">
+<div class="wrap">
+<div class="section-head"><h2>Life</h2></div>
+<div class="now">
+<div class="now-head"><h3>Now</h3><span class="muted small">Updated [date]</span></div>
+<dl>
+<div><dt>Working on</dt><dd>[One line]</dd></div>
+<div><dt>Reading</dt><dd>[One line]</dd></div>
+<div><dt>Thinking about</dt><dd>[One line]</dd></div>
+<div><dt>Listening to</dt><dd>[One line]</dd></div>
+</dl>
+</div>
+<div class="stack">
+<h3>Favorites</h3>
+<div class="grid cols-3">
+<div class="card outline fav"><h4>Books</h4><ul class="muted small"><li>[Title] &mdash; [why, one line]</li><li>[Title] &mdash; [why, one line]</li><li>[Title] &mdash; [why, one line]</li></ul></div>
+<div class="card outline fav"><h4>Films &amp; shows</h4><ul class="muted small"><li>[Title] &mdash; [why, one line]</li><li>[Title] &mdash; [why, one line]</li><li>[Title] &mdash; [why, one line]</li></ul></div>
+<div class="card outline fav"><h4>Music &amp; podcasts</h4><ul class="muted small"><li>[Title] &mdash; [why, one line]</li><li>[Title] &mdash; [why, one line]</li><li>[Title] &mdash; [why, one line]</li></ul></div>
+<div class="card outline fav"><h4>Tools &amp; apps</h4><ul class="muted small"><li>[Title] &mdash; [why, one line]</li><li>[Title] &mdash; [why, one line]</li><li>[Title] &mdash; [why, one line]</li></ul></div>
+<div class="card outline fav"><h4>Places</h4><ul class="muted small"><li>[Title] &mdash; [why, one line]</li><li>[Title] &mdash; [why, one line]</li><li>[Title] &mdash; [why, one line]</li></ul></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="hobbies">
+<div class="wrap">
+<div class="section-head"><h2>Hobbies</h2><p>[A line on what you do when you're not working]</p></div>
+<div class="grid cols-3">
+<article class="hobby"><div class="ph" role="img" aria-label="Photo placeholder">[Photo]</div><h4>[Hobby]</h4><p class="muted small">[One line about it]</p><a href="#" class="small">Read notes</a></article>
+<article class="hobby"><div class="ph" role="img" aria-label="Photo placeholder">[Photo]</div><h4>[Hobby]</h4><p class="muted small">[One line about it]</p><a href="#" class="small">Read notes</a></article>
+<article class="hobby"><div class="ph" role="img" aria-label="Photo placeholder">[Photo]</div><h4>[Hobby]</h4><p class="muted small">[One line about it]</p><a href="#" class="small">Read notes</a></article>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="wrap contact">
+<div class="info">
+<h2>Contact</h2>
+<p class="muted">[A line on how and why to reach out]</p>
+<a class="email" href="mailto:email@address">[email@address]</a>
+<ul><li><a href="#">[LinkedIn]</a></li><li><a href="#">[GitHub]</a></li><li><a href="#">[X / Other]</a></li></ul>
+</div>
+<!-- Replace action with your form service endpoint (e.g. Formspree, Netlify Forms) -->
+<form class="form" action="#" method="post">
+<div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+<div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+<div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea></div>
+<button class="btn btn-primary" type="submit">Send</button>
+</form>
+</div>
+</section>
+
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<span>&copy; Kanav</span>
+<ul><li><a href="#writing">Archive</a></li><li><a href="#contact">Contact</a></li></ul>
+</div>
+</footer>
+
+<script>
+(function(){
+  var btn=document.querySelector('.menu-btn'),list=document.getElementById('nav-list');
+  btn.addEventListener('click',function(){
+    var open=list.classList.toggle('open');
+    btn.setAttribute('aria-expanded',open);
+  });
+  list.addEventListener('click',function(e){
+    if(e.target.tagName==='A'){list.classList.remove('open');btn.setAttribute('aria-expanded','false');}
+  });
+  var chips=document.querySelectorAll('[data-filter]'),posts=document.querySelectorAll('#posts .post');
+  chips.forEach(function(c){
+    c.addEventListener('click',function(){
+      var f=c.getAttribute('data-filter');
+      chips.forEach(function(x){x.setAttribute('aria-pressed',x===c);});
+      posts.forEach(function(p){
+        p.hidden=!(f==='all'||p.getAttribute('data-tags').split(' ').indexOf(f)>-1);
+      });
+    });
+  });
+})();
+</script>
 </body>
 </html>
